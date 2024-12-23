@@ -1,0 +1,92 @@
+Classfile ./original/build/classes/kotlin/main/HelloWorldKt.class
+  Last modified Dec 24, 2024; size 666 bytes
+  SHA-256 checksum 84d49ed07521bfd94cf1e9fcbbea7b36ac74d8d44b195c686525b88b93f26ad2
+  Compiled from "HelloWorld.kt"
+public final class HelloWorldKt
+  minor version: 0
+  major version: 67
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // HelloWorldKt
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 2
+Constant pool:
+   #1 = Utf8               HelloWorldKt
+   #2 = Class              #1             // HelloWorldKt
+   #3 = Utf8               java/lang/Object
+   #4 = Class              #3             // java/lang/Object
+   #5 = Utf8               main
+   #6 = Utf8               ()V
+   #7 = Utf8               Hello World!
+   #8 = String             #7             // Hello World!
+   #9 = Utf8               java/lang/System
+  #10 = Class              #9             // java/lang/System
+  #11 = Utf8               out
+  #12 = Utf8               Ljava/io/PrintStream;
+  #13 = NameAndType        #11:#12        // out:Ljava/io/PrintStream;
+  #14 = Fieldref           #10.#13        // java/lang/System.out:Ljava/io/PrintStream;
+  #15 = Utf8               java/io/PrintStream
+  #16 = Class              #15            // java/io/PrintStream
+  #17 = Utf8               println
+  #18 = Utf8               (Ljava/lang/Object;)V
+  #19 = NameAndType        #17:#18        // println:(Ljava/lang/Object;)V
+  #20 = Methodref          #16.#19        // java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #21 = Utf8               ([Ljava/lang/String;)V
+  #22 = NameAndType        #5:#6          // main:()V
+  #23 = Methodref          #2.#22         // HelloWorldKt.main:()V
+  #24 = Utf8               args
+  #25 = Utf8               [Ljava/lang/String;
+  #26 = Utf8               Lkotlin/Metadata;
+  #27 = Utf8               mv
+  #28 = Integer            2
+  #29 = Integer            1
+  #30 = Integer            0
+  #31 = Utf8               k
+  #32 = Utf8               xi
+  #33 = Integer            48
+  #34 = Utf8               d1
+  #35 = Utf8               \u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001¨\u0006\u0002
+  #36 = Utf8               d2
+  #37 = Utf8
+  #38 = Utf8               original
+  #39 = Utf8               HelloWorld.kt
+  #40 = Utf8               Code
+  #41 = Utf8               LineNumberTable
+  #42 = Utf8               LocalVariableTable
+  #43 = Utf8               SourceFile
+  #44 = Utf8               RuntimeVisibleAnnotations
+{
+  public static final void main();
+    descriptor: ()V
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    Code:
+      stack=2, locals=0, args_size=0
+         0: ldc           #8                  // String Hello World!
+         2: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
+         5: swap
+         6: invokevirtual #20                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+         9: return
+      LineNumberTable:
+        line 2: 0
+        line 3: 9
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x1009) ACC_PUBLIC, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #23                 // Method main:()V
+         3: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  args   [Ljava/lang/String;
+}
+SourceFile: "HelloWorld.kt"
+RuntimeVisibleAnnotations:
+  0: #26(#27=[I#28,I#29,I#30],#31=I#28,#32=I#33,#34=[s#35],#36=[s#5,s#37,s#38])
+    kotlin.Metadata(
+      mv=[2,1,0]
+      k=2
+      xi=48
+      d1=["\u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001¨\u0006\u0002"]
+      d2=["main","","original"]
+    )
